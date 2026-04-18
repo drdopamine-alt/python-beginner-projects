@@ -1,0 +1,6 @@
+n =  input('Enter a number: ')
+num = int(n)
+reversed_num = int(n[::-1])
+print(f"Original: {num}")
+print(f"Reversed: {reversed_num}")
+print(f"Total Sum: {num + reversed_num}")
